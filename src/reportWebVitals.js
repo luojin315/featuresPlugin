@@ -1,7 +1,7 @@
 // 博客说明：https://note.xiexuefeng.cc/post/about-web-vitals/
 // git:https://github.com/GoogleChrome/web-vitals
 
-const reportWebVitals = onPerfEntry => {
+const reportWebVitals = (onPerfEntry) => {
   if (onPerfEntry && onPerfEntry instanceof Function) {
     import('web-vitals').then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {
       getLCP(onPerfEntry); // 最大内容渲染

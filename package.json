@@ -147,5 +147,8 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^19.0.2"
   }
 }
